@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0077cc;
+}
+
+.highlight {
+    background-color: #d0f0ff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #0077cc;
+    color: black;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/*js*/
+
+
+.option-btn {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.6rem 1rem;
+    background-color: #e0f0ff;
+    border: 1px solid #0077cc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.option-btn:hover {
+    background-color: #c0e4ff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+caption {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody tr.even {
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    font-size: 0.9rem;
+}
