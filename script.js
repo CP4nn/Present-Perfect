@@ -35,7 +35,7 @@ const questions = [
     },
     {
     question: "I ______ (never / be) to Japan.",
-    options: ["have never been", "never have been", "have been never", "never been"],
+    options: ["never been", "never have been", "have been never", "have never been"],
     answer: "have never been"
     },
     {
@@ -55,12 +55,12 @@ const questions = [
     },
     {
     question: "You ______ (ever / see) that movie?",
-    options: ["have ever seen", "ever have seen", "have seen ever", "seen ever"],
+    options: ["ever have seen", "have ever seen", "have seen ever", "seen ever"],
     answer: "have ever seen"
     },
     {
     question: "I ______ (not / finish) the report yet.",
-    options: ["have not finished", "has not finished", "haven't finish", "didn't finish"],
+    options: ["didn't finish", "has not finished", "haven't finish", "have not finished"],
     answer: "have not finished"
     },
     {
@@ -70,7 +70,7 @@ const questions = [
     },
     {
     question: "We ______ (know) each other for years.",
-    options: ["have known", "has known", "knew", "know"],
+    options: ["knew", "has known", "have known", "know"],
     answer: "have known"
     },
     {
@@ -80,7 +80,7 @@ const questions = [
     },
     {
     question: "They ___ (to see) that movie before.",
-    options: ["have seen", "saw", "has seen", "see"],
+    options: ["see", "saw", "has seen", "have seen"],
     answer: "have seen"
     }
 ];
